@@ -1,22 +1,3 @@
-// let itemArr = [{
-//     id:  1,
-//     name: inputVal.value,
-//     createdDate: Date,
-//     completed: true
-
-// }]
-
-// function getItems(){
-//     let inputVal = document.querySelector('#todoInput').value
-//     let outputDisplay = document.querySelector('.output')
-
-//     itemArr.forEach((content) =>{
-//         outputDisplay.innerHTML += `<li class="output-item">${content.name}</li>`
-//     })
-// }
-
-    
-
     let btn = document.querySelector('#addBtn')
     let empty = ''
     btn.addEventListener('click', function(){
@@ -33,9 +14,5 @@
          para.addEventListener('dblclick', function(){
             container.removeChild(para)
          })
-    })   
-    
-    
-
-    // console.log(outputDisplay);
+    })
 
